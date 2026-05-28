@@ -17,16 +17,16 @@ body {
 .bloc-titre {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 1.2em;
-  letter-spacing: 2.05em;
+  font-weight: 900;
+  font-size: 2em;
+  letter-spacing: 1.05em;
   margin-bottom: 1rem;
 }
 
 /* --- BLOC 2 : IMAGE --- */
 .bloc-image { margin-bottom: 1.5rem; }
 .banniere {
-  width: 80%;
+  width: 40%;
   display: block;
   margin: 0 auto;
 }

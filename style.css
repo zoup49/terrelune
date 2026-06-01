@@ -95,10 +95,11 @@ body {
 /* Titres de section communs */
 h2 {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 550;
   font-style: italic;
   margin: 0 0 0.4rem 0;
   padding: 0;
+  margin-left: 0rem
 }
 
 /* --- BLOC 7 : BILLETTERIE --- */
@@ -125,8 +126,7 @@ h2 {
 /* --- LIENS --- */
 a {
   color: #111;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 a:hover { opacity: 0.5; }
 

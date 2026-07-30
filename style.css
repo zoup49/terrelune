@@ -121,9 +121,9 @@ h2 {
   font-weight: 300;
   font-style: italic;
   color: #888;
-  font-size: 13px;
+  font-size: 11px;
   margin: 0;
-  max-width: 420px;
+  max-width: 250px;
 }
 .bouton-billet {
   display: inline-block;

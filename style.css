@@ -158,11 +158,22 @@ a {
 a:hover { opacity: 0.5; }
 
 /* --- BLOC 9 : PIED DE PAGE --- */
-.footer-instagram {
+.infolettre-note {
   text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: #888;
+  font-size: 13px;
+  margin: 0 0 0.8rem 0;
+}
+.footer-boutons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
 }
-.footer-instagram a {
+.footer-boutons a {
   display: inline-block;
   padding: 0.5rem 1.2rem;
   border: 1px solid #111;
@@ -171,7 +182,7 @@ a:hover { opacity: 0.5; }
   color: #111;
   text-decoration: none;
 }
-.footer-instagram a:hover {
+.footer-boutons a:hover {
   background-color: #111;
   color: #f5f4f2;
   opacity: 1;
@@ -187,13 +198,7 @@ footer {
   font-style: italic;
   color: #888;
   font-size: 13px;
-  gap: 0.5rem;
   margin-bottom: 0.5rem;
-  font-weight: 300;
-}
-.footer-collectif {
-  text-align: right;
-  font-weight: 300;
 }
 
 /* --- RESPONSIVE --- */
